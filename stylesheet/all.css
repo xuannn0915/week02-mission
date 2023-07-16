@@ -14480,7 +14480,30 @@ img {
 }
 
 .introduction {
-  background: url(../pic/bg.png), black 50%/cover no-repeat;
-  height: 85vh;
+  background-image: url(../pic/bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  height: 920px;
   padding: 160px 0;
+}
+.introduction h2, .introduction .h2 {
+  margin-bottom: 36px;
+}
+.introduction p {
+  margin-bottom: 32px;
+}
+.introduction .sparkle-sm {
+  width: 128px;
+}
+.introduction .sparkle-lg {
+  background: linear-gradient(to bottom right, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) bottom right/50% 50% no-repeat, linear-gradient(to bottom left, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) bottom left/50% 50% no-repeat, linear-gradient(to top left, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) top left/50% 50% no-repeat, linear-gradient(to top right, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) top right/50% 50% no-repeat;
+}
+
+.aboutMe {
+  padding: 160px 0;
+}
+.aboutMe h2, .aboutMe .h2 {
+  margin-bottom: 36px;
 }/*# sourceMappingURL=all.css.map */
