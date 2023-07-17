@@ -14449,25 +14449,32 @@ body {
   font-weight: 400;
   box-sizing: border-box;
 }
-
-img {
+body img {
   width: 100%;
   height: auto;
   vertical-align: middle;
+}
+body a {
+  text-decoration: none;
 }
 
 .container {
   max-width: 1296px;
 }
 
-.navbar {
+.navbar a {
+  display: inline-block;
   padding-top: 40px;
+  border-bottom: 1px solid transparent;
 }
-.navbar li {
+.navbar a:hover {
+  border-bottom: 1px solid #fff;
+}
+.navbar .item {
   width: 23%;
   margin-right: 61px;
 }
-.navbar li:last-child {
+.navbar .item:last-child {
   width: 15%;
   margin-right: 0;
 }
@@ -14498,12 +14505,50 @@ img {
   width: 128px;
 }
 .introduction .sparkle-lg {
-  background: linear-gradient(to bottom right, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) bottom right/50% 50% no-repeat, linear-gradient(to bottom left, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) bottom left/50% 50% no-repeat, linear-gradient(to top left, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) top left/50% 50% no-repeat, linear-gradient(to top right, #D9D9D9 0%, rgba(217, 217, 217, 0) 50%) top right/50% 50% no-repeat;
+  background: linear-gradient(to bottom right, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) bottom right/50% 50% no-repeat, linear-gradient(to bottom left, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) bottom left/50% 50% no-repeat, linear-gradient(to top left, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) top left/50% 50% no-repeat, linear-gradient(to top right, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) top right/50% 50% no-repeat;
 }
 
 .aboutMe {
   padding: 160px 0;
 }
+.aboutMe .item {
+  padding: 16px;
+  margin-bottom: 24px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+}
+.aboutMe .item:hover {
+  box-shadow: none;
+  transition: 0.5s;
+}
+.aboutMe .item .title {
+  margin-bottom: 4px;
+}
 .aboutMe h2, .aboutMe .h2 {
   margin-bottom: 36px;
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  padding: 96px 0;
+}
+.contact .wording h2, .contact .wording .h2 {
+  margin-right: 16px;
+}
+.contact .wording img {
+  width: 100px;
+}
+.contact .media li {
+  margin-right: 20px;
+}
+.contact .media li:last-child {
+  margin-right: 0;
+}
+.contact .media li:hover {
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contact .media img {
+  width: 162px;
 }/*# sourceMappingURL=all.css.map */
