@@ -79,15 +79,32 @@ body {
     &:last-child {
       width: 15%;
       margin-right: 0;
+      text-align: right;
+    }
+  }
+  @media (max-width:990px) {
+    .item{
+      width: 100%;
+      &:last-child {
+        width: 100%;
+        text-align: left;
+      }
     }
   }
 }
 
 .banner {
-  padding: 72px;
+  padding: 72px 0;
 
   button {
     padding: 12px 24px;
+  }
+
+  @media (max-width:990px) {
+    padding: 48px 0;
+    .welcoming{
+      margin-bottom: 48px;
+    }
   }
 }
 
@@ -97,7 +114,6 @@ body {
   background-position: center center;
   background-color: rgba(0, 0, 0, 0.9);
   background-size: cover;
-  height: 920px;
   padding: 160px 0;
 
   h2 {
@@ -131,6 +147,14 @@ body {
       transform: scale(1.2, 1.2);
     }
   }
+
+  @media (max-width:990px) {
+    padding: 48px 0;
+    .img-box{
+      height: 400px;
+      object-fit: cover;
+    }
+  }
 }
 
 .aboutMe {
@@ -153,6 +177,13 @@ body {
 
   h2 {
     margin-bottom: 36px;
+  }
+
+  @media (max-width:990px) {
+    padding: 48px 0;
+    .wording{
+      margin-bottom: 32px;
+    }
   }
 }
 

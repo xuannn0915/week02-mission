@@ -14473,13 +14473,31 @@ body a {
 .navbar .item:last-child {
   width: 15%;
   margin-right: 0;
+  text-align: right;
+}
+@media (max-width: 990px) {
+  .navbar .item {
+    width: 100%;
+  }
+  .navbar .item:last-child {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 .banner {
-  padding: 72px;
+  padding: 72px 0;
 }
 .banner button {
   padding: 12px 24px;
+}
+@media (max-width: 990px) {
+  .banner {
+    padding: 48px 0;
+  }
+  .banner .welcoming {
+    margin-bottom: 48px;
+  }
 }
 
 .introduction {
@@ -14488,7 +14506,6 @@ body a {
   background-position: center center;
   background-color: rgba(0, 0, 0, 0.9);
   background-size: cover;
-  height: 920px;
   padding: 160px 0;
 }
 .introduction h2, .introduction .h2 {
@@ -14506,6 +14523,16 @@ body a {
 .introduction .img-box:hover img {
   transition: 0.5s;
   transform: scale(1.2, 1.2);
+}
+@media (max-width: 990px) {
+  .introduction {
+    padding: 48px 0;
+  }
+  .introduction .img-box {
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .aboutMe {
@@ -14527,6 +14554,14 @@ body a {
 }
 .aboutMe h2, .aboutMe .h2 {
   margin-bottom: 36px;
+}
+@media (max-width: 990px) {
+  .aboutMe {
+    padding: 48px 0;
+  }
+  .aboutMe .wording {
+    margin-bottom: 32px;
+  }
 }
 
 .contact {

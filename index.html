@@ -14,7 +14,7 @@
     <!-- navbar -->
     <div class="navbar bg-dark">
         <div class="container">
-            <ul class="d-flex">
+            <ul class="d-flex flex-lg-row flex-column">
                 <li class="item">
                     <a href="#" class="text-light">
                         WILLIAM LEE
@@ -30,7 +30,7 @@
                         CURRENTLY FRONT END ENGINEER AT HEXSCHOOL
                     </a>
                 </li>
-                <li class="item text-end">
+                <li class="item">
                     <a href="#" class="text-light">
                         CONTACT ME
                     </a>
@@ -42,11 +42,11 @@
     <!-- banner -->
     <div class="banner bg-dark">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col">
+            <div class="row flex-lg-row flex-column-reverse align-items-center">
+                <div class="portrait col-lg">
                     <img src="./pic/Rectangle 5.png" alt="williwam pic">
                 </div>
-                <div class="col d-flex flex-column align-items-end">
+                <div class="welcoming col-lg d-flex flex-column align-items-end">
                     <h2 class="fs-2 text-light">
                         Hi <br> I’m a front-end developer
                     </h2>
@@ -70,18 +70,18 @@
     <div class="introduction">
         <div class="container">
             <div class="row">
-                <div class="col-5 text-white">
+                <div class="col-lg-5 text-white">
                     <h2 class="fs-2">Introduction</h2>
                     <p class="fs-4">Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
-                    <img src="./pic/sparkle-sm.png" alt="sparkle-sm" class="sparkle-sm">
+                    <img src="./pic/sparkle-sm.png" alt="sparkle-sm" class="sparkle-sm d-lg-block d-none">
                 </div>
-                <div class="col-2 sparkle-lg"></div>
-                <div class="col-2">
+                <div class="col-2 d-lg-block d-none sparkle-lg"></div>
+                <div class="col-lg-2 col-6">
                     <div class="img-box overflow-hidden">
                         <img src="./pic/photographer.png" alt="intro-pic">
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-6">
                     <div class="img-box overflow-hidden">
                         <img src="./pic/people-2.png" alt="intro-pic">
                     </div>
@@ -91,43 +91,45 @@
     </div>
 
     <!-- about me -->
-    <div class="aboutMe container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-6">
-                <div class="row personality">
-                    <div class="col-6">
-                        <div class="item">
-                            <div class="title">01</div>
-                            <div class="title">Attention to Detail</div>
-                            <p>Meticulous code analysis and optimization.</p>
+    <div class="aboutMe">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse justify-content-between align-items-center">
+                <div class="col-lg-6 cards">
+                    <div class="row personality">
+                        <div class="col-6">
+                            <div class="item">
+                                <div class="title">01</div>
+                                <div class="title">Attention to Detail</div>
+                                <p>Meticulous code analysis and optimization.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="item">
-                            <div class="title">02</div>
-                            <div class="title">Adaptability</div>
-                            <p>Swift learning of new technologies.</p>
+                        <div class="col-6">
+                            <div class="item">
+                                <div class="title">02</div>
+                                <div class="title">Adaptability</div>
+                                <p>Swift learning of new technologies.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="item">
-                            <div class="title">03</div>
-                            <div class="title">Problem Solver</div>
-                            <p>Identifying and resolving issues.</p>
+                        <div class="col-6">
+                            <div class="item">
+                                <div class="title">03</div>
+                                <div class="title">Problem Solver</div>
+                                <p>Identifying and resolving issues.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="item">
-                            <div class="title">04</div>
-                            <div class="title">Team Player</div>
-                            <p>Collaborates and shares ideas.</p>
+                        <div class="col-6">
+                            <div class="item">
+                                <div class="title">04</div>
+                                <div class="title">Team Player</div>
+                                <p>Collaborates and shares ideas.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-5">
-                <h2 class="fs-2">About Me</h2>
-                <p class="fs-4">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+                <div class="col-lg-5 wording">
+                    <h2 class="fs-2 title">About Me</h2>
+                    <p class="fs-4">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+                </div>
             </div>
         </div>
     </div>
