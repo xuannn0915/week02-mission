@@ -6113,7 +6113,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1296px;
   }
 }
 :root {
@@ -14458,10 +14458,6 @@ body a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1296px;
-}
-
 .navbar a {
   display: inline-block;
   padding-top: 40px;
@@ -14507,6 +14503,10 @@ body a {
 .introduction .sparkle-lg {
   background: linear-gradient(to bottom right, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) bottom right/50% 50% no-repeat, linear-gradient(to bottom left, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) bottom left/50% 50% no-repeat, linear-gradient(to top left, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) top left/50% 50% no-repeat, linear-gradient(to top right, #d9d9d9 0%, rgba(217, 217, 217, 0) 50%) top right/50% 50% no-repeat;
 }
+.introduction .img-box:hover img {
+  transition: 0.5s;
+  transform: scale(1.2, 1.2);
+}
 
 .aboutMe {
   padding: 160px 0;
@@ -14542,13 +14542,40 @@ body a {
 .contact .media li {
   margin-right: 20px;
 }
+.contact .media li:hover {
+  border-radius: 40px;
+  box-shadow: 0px 0px 16px 3px rgba(237, 59, 90, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 .contact .media li:last-child {
   margin-right: 0;
 }
-.contact .media li:hover {
-  border-radius: 40px;
+.contact .media li:last-child:hover {
+  box-shadow: 0px 0px 16px 3px rgba(1, 225, 82, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contact .media li:first-child:hover {
   box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .contact .media img {
   width: 162px;
+}
+
+.project {
+  padding: 160px 0;
+}
+.project .title {
+  margin-bottom: 16px;
+}
+.project-pic {
+  height: 530px;
+}
+.project-intro {
+  margin-bottom: 28px;
+}
+.project a {
+  padding: 12px 24px;
+  width: 30%;
+}
+
+.footer {
+  padding: 40px 0;
 }/*# sourceMappingURL=all.css.map */
