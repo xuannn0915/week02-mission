@@ -14460,13 +14460,13 @@ body a {
 
 .navbar a {
   display: inline-block;
-  padding-top: 40px;
   border-bottom: 1px solid transparent;
 }
 .navbar a:hover {
   border-bottom: 1px solid #fff;
 }
 .navbar .item {
+  padding-top: 40px;
   width: 23%;
   margin-right: 61px;
 }
@@ -14478,6 +14478,7 @@ body a {
 @media (max-width: 990px) {
   .navbar .item {
     width: 100%;
+    padding-top: 16px;
   }
   .navbar .item:last-child {
     width: 100%;
@@ -14493,7 +14494,7 @@ body a {
 }
 @media (max-width: 990px) {
   .banner {
-    padding: 48px 0;
+    padding: 56px 0;
   }
   .banner .welcoming {
     margin-bottom: 48px;
@@ -14526,7 +14527,7 @@ body a {
 }
 @media (max-width: 990px) {
   .introduction {
-    padding: 48px 0;
+    padding: 56px 0;
   }
   .introduction .img-box {
     height: 400px;
@@ -14557,10 +14558,13 @@ body a {
 }
 @media (max-width: 990px) {
   .aboutMe {
-    padding: 48px 0;
+    padding: 56px 0;
   }
   .aboutMe .wording {
     margin-bottom: 32px;
+  }
+  .aboutMe h2, .aboutMe .h2 {
+    margin-bottom: 16px;
   }
 }
 
@@ -14593,6 +14597,15 @@ body a {
 .contact .media img {
   width: 162px;
 }
+@media (max-width: 990px) {
+  .contact {
+    padding: 48px 0;
+  }
+  .contact h2, .contact .h2 {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
 
 .project {
   padding: 160px 0;
@@ -14609,6 +14622,17 @@ body a {
 .project a {
   padding: 12px 24px;
   width: 30%;
+}
+@media (max-width: 990px) {
+  .project {
+    padding: 56px 0;
+  }
+  .project a {
+    width: 40%;
+  }
+  .project p {
+    margin-bottom: 16px;
+  }
 }
 
 .footer {

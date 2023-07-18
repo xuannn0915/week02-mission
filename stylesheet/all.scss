@@ -66,14 +66,14 @@ body {
 .navbar {
   a {
     display: inline-block;
-    padding-top: 40px;
     border-bottom: 1px solid transparent;
     &:hover {
       border-bottom: 1px solid #fff;
     }
   }
-
+  
   .item {
+    padding-top: 40px;
     width: 23%;
     margin-right: 61px;
     &:last-child {
@@ -85,6 +85,7 @@ body {
   @media (max-width:990px) {
     .item{
       width: 100%;
+      padding-top: 16px;
       &:last-child {
         width: 100%;
         text-align: left;
@@ -101,7 +102,7 @@ body {
   }
 
   @media (max-width:990px) {
-    padding: 48px 0;
+    padding: 56px 0;
     .welcoming{
       margin-bottom: 48px;
     }
@@ -149,7 +150,7 @@ body {
   }
 
   @media (max-width:990px) {
-    padding: 48px 0;
+    padding: 56px 0;
     .img-box{
       height: 400px;
       object-fit: cover;
@@ -180,9 +181,12 @@ body {
   }
 
   @media (max-width:990px) {
-    padding: 48px 0;
+    padding: 56px 0;
     .wording{
       margin-bottom: 32px;
+    }
+    h2{
+      margin-bottom: 16px;
     }
   }
 }
@@ -226,6 +230,14 @@ body {
       width: 162px;
     }
   }
+
+  @media (max-width:990px) {
+    padding: 48px 0;
+    h2{
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
 }
 
 .project{
@@ -245,6 +257,18 @@ body {
   a{
     padding: 12px 24px;
     width: 30%;
+  }
+
+  @media (max-width:990px) {
+    padding: 56px 0;
+
+    a{
+      width: 40%;
+    }
+
+    p{
+      margin-bottom: 16px;
+    }
   }
 }
 
